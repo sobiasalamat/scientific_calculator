@@ -1,0 +1,43 @@
+# ---------------------------
+# Python
+# ---------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ---------------------------
+# PyCharm / IntelliJ
+# ---------------------------
+.idea/
+*.iml
+
+# ---------------------------
+# OS files
+# ---------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# Logs
+# ---------------------------
+*.log
