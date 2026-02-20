@@ -1,125 +1,119 @@
 
 
-# 🧮 Scientific Calculator (Python)
+🧮 **Scientific Calculator – Python**
 
-A menu-driven scientific calculator built in Python using modular programming.
-This project separates all mathematical operations into a reusable module and uses a main program to handle user interaction and memory features.
-
-It is designed for beginners who want to practice functions, modules, error handling, and the `math` library.
+A console-based Python calculator that performs standard arithmetic and scientific operations.
+It allows users to perform addition, subtraction, multiplication, division, exponentiation, square roots, and more—all from the command line.
 
 ---
 
-## ✨ Features
+🚀 **About**
 
-* Basic operations
-
-  * Addition
-  * Subtraction
-  * Multiplication
-  * Division
-
-* Power operations
-
-  * Square
-  * Cube
-  * Custom power (x^y)
-
-* Root operations
-
-  * Square root
-  * Cube root (also works for negative numbers)
-
-* Trigonometric functions (input in degrees)
-
-  * sin, cos, tan
-
-* Inverse trigonometric functions
-
-  * asin, acos, atan (output in degrees)
-
-* Logarithmic functions
-
-  * Log base 10
-  * Natural log (ln)
-  * Antilog
-
-* Error handling
-
-  * Division by zero
-  * Invalid input for logarithms
-  * Invalid range for inverse trigonometric functions
-
-* Memory feature (M+ style)
-
-  * Store last result
-  * Recall stored value
+This Scientific Calculator project is designed for beginners to practice Python programming while building a functional tool.
+It supports both basic arithmetic operations and some advanced mathematical functions, making it a great learning exercise in Python logic, functions, and input handling.
 
 ---
 
-## 🗂 Project Structure
+🛠️ **Features**
+
+• Basic arithmetic operations: addition, subtraction, multiplication, division
+• Scientific functions: exponentiation, square roots, factorial, logarithms, trigonometric functions (sin, cos, tan)
+• User-friendly console interface with menus
+• Input validation to prevent errors
+• Performs multiple calculations in a single session
+
+---
+
+🧰 **Built With**
+
+🐍 Python
+🖥️ Command-Line Interface
+📐 math module
+
+---
+
+🚀 **Getting Started**
+
+✔️ **Prerequisites**
+Make sure Python 3 is installed on your machine.
+
+📥 **Install & Run**
+
+1. Clone the repository:
 
 ```
-scientific-calculator/
-│
-├── main.py
-├── operations.py
-└── README.md
+git clone https://github.com/your-username/scientific-calculator.git
 ```
 
----
+2. Open the project folder:
 
-## 📄 File Description
+```
+cd scientific-calculator
+```
 
-### main.py
-
-* Displays the menu
-* Takes user input
-* Calls functions from `operations.py`
-* Handles memory (store and recall)
-* Shows final results
-
-### operations.py
-
-* Contains all mathematical functions
-* Uses the built-in `math` module
-* Performs calculations only (no user input)
-
----
-
-## ▶ How to Run
-
-Make sure both files are in the same folder.
-
-Open terminal in that folder and run:
+3. Run the program:
 
 ```
 python main.py
 ```
 
+*(Replace `main.py` with your file name if different.)*
+
 ---
 
-## 🧠 Memory Feature
+📖 **Usage**
 
-* After any calculation, you can store the result using:
+1. Run the program.
+2. Select an operation from the menu (e.g., addition, subtraction, square root, sin).
+3. Enter the required number(s) when prompted.
+4. View the result and choose to perform another calculation or exit.
+
+---
+
+🧪 **Example**
 
 ```
-M+   (Store last result)
+Select operation:
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Square Root
+6. Exponent
+7. Factorial
+8. Sin
+9. Cos
+10. Tan
+> 1
+Enter first number: 10
+Enter second number: 5
+Result: 15
 ```
 
-* You can recall the stored value using:
+---
 
-```
-MR   (Memory recall)
+🖋️ **Contributing**
+
+Contributions are welcome! You can:
+• Add more scientific operations
+• Improve the menu interface
+• Add error handling for edge cases
+• Enhance documentation
+
+Feel free to open an issue or submit a pull request.
+
+---
+
+📜 **License**
+
+This project is open-source and free to use for learning and practice.
+
+---
+
+📌 **Notes**
+
+• This calculator is intended for educational purposes and beginner practice.
+• Designed as a console application for Python learning.
 
 
-## 🎯 Learning Objectives
-
-This project helps you practice:
-
-* Python functions
-* Creating and importing modules
-* Using the math library
-* Menu-based programs
-* Exception handling
-* Clean and modular code design
-
+Do you want me to do that?
